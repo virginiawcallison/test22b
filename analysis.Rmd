@@ -5,12 +5,12 @@ output:
     self_contained: no
     keep_md: yes
 date: "2022-08-16"
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-install.packages("ggplot2")
-library(ggplot2)
 ```
 
 ## R Markdown
@@ -32,3 +32,4 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
