@@ -1,5 +1,9 @@
+#!/bin/bash
+
+set -ev
+
 Rscript build.R
 
 #Rscript -e "rmarkdown::render('analysis.Rmd')"
 
-#R --vanilla <build.R>
+#R --vanilla <build.R> build.Rlog
